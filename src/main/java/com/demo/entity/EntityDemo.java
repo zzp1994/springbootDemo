@@ -1,6 +1,10 @@
 package com.demo.entity;
 
-public class EntityDemo {
+
+
+public class EntityDemo implements java.io.Serializable {
+	
+	private static final long serialVersionUID = -3210733349865862840L;
 	private String name;
 	private String age;
 	public String getName() {
